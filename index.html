@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>A simple website</title>
     <style>
         body {
             margin: 0%;
@@ -15,6 +15,14 @@
             background-size: 100% 100%;
             background-attachment: fixed;
             cursor: default;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
         }
 
         header {
@@ -23,7 +31,6 @@
 
         nav {
             display: flex;
-            ackground: rgb(167, 140, 140);
         }
 
         .portfolio {
@@ -91,7 +98,9 @@
 
         footer {
             color: aliceblue;
-
+            margin-top: auto;
+            text-align: center;
+            margin-bottom: 2vh;
         }
     </style>
 </head>
@@ -121,7 +130,11 @@
         </section>
     </header>
 
-    <footer>copyright&copy-2020| Prabhat</footer>
+    <footer>
+        <p>
+            copyright&copy-2020| Prabhat
+        </p>
+    </footer>
 </body>
 
 </html>
