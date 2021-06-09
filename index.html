@@ -6,103 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A simple website</title>
-    <style>
-        body {
-            margin: 0%;
-            padding: 0%;
-            background-image: url(back-ground.jpeg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-attachment: fixed;
-            cursor: default;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        p {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            color: seashell;
-        }
-
-        nav {
-            display: flex;
-        }
-
-        .portfolio {
-            margin-top: 20px;
-            margin-left: 15px;
-        }
-
-        .menu {
-            display: flex;
-            padding: 20px;
-            padding-right: 10%;
-            margin-left: 50%;
-
-        }
-
-        li {
-            text-decoration: none;
-            padding: 10px;
-            list-style: none;
-
-        }
-
-        a {
-            text-transform: uppercase;
-            text-decoration: none;
-            color: seashell;
-            cursor: pointer;
-        }
-
-        a:hover {
-            color: skyblue;
-        }
-
-        hr {
-            color: snow;
-            margin: 0 20px 4px 20px;
-        }
-
-        .left {
-            font-size: 40px;
-            padding: 15%;
-            float: left;
-        }
-
-        span {
-            color: tomato;
-            font-family: "Lucida Console", "Courier New", monospace;
-
-        }
-
-        .section {
-            display: flex;
-            display: inline-block;
-        }
-
-        .right>img {
-            background: rgb(215, 241, 64);
-            border: 2px solid whiite;
-            border-radius: 50%;
-            height: 150px;
-            width: auto;
-            margin-top: 10%;
-            margin-left: 20%;
-        }
-
-        footer {
-            color: aliceblue;
-            margin-top: auto;
-            text-align: center;
-            margin-bottom: 2vh;
-        }
-    </style>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
@@ -110,14 +14,16 @@
         <nav>
             <div class="portfolio"><span class="1">PORT</span><span class="2">FOLIO</span></div>
             <div class="menu">
-                <li> <a href="">Home</a> </li>
-                <li> <a href="">contact</a> </li>
-                <li> <a href="">suppport</a> </li>
+                <li> <a href="#home">Home</a> </li>
+                <li> <a href="#services">services</a> </li>
+                <li> <a href="#skills">skills</a> </li>
+                <li> <a href="#project">projects</a> </li>
+                <li> <a href="#contact">contact</a> </li>
             </div>
         </nav>
         <hr>
         <hr>
-        <section>
+        <section id="home">
             <div class="left">
                 <span>Hello,</span>guys.
             </div>
@@ -129,12 +35,23 @@
             </div>
         </section>
     </header>
-
-    <footer>
-        <p>
-            copyright&copy-2020| Prabhat
-        </p>
-    </footer>
+    <section class="sub" id="services">
+        <h2>My services</h2>
+    </section>
+    <section class="sub" id="skills">
+        <h2>My skills</h2>
+    </section>
+    <section class="sub" id="project">
+        <h2>My projects</h2>
+    </section>
+    <section class="sub" id="contact">
+        <h2>Contact me</h2>
+        <footer>
+            <p class="footer">
+                copyright&copy-2020| Prabhat
+            </p>
+        </footer>
+    </section>
 </body>
 
 </html>

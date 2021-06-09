@@ -22,6 +22,9 @@ header {
 
 nav {
     display: flex;
+    position: fixed;
+    background-color: black;
+    width: 100%;
 }
 
 .portfolio {
@@ -34,14 +37,12 @@ nav {
     padding: 20px;
     padding-right: 10%;
     margin-left: 50%;
-
 }
 
 li {
     text-decoration: none;
     padding: 10px;
     list-style: none;
-
 }
 
 a {
@@ -53,11 +54,6 @@ a {
 
 a:hover {
     color: skyblue;
-}
-
-hr {
-    color: snow;
-    margin: 0 20px 4px 20px;
 }
 
 .left {
@@ -72,9 +68,10 @@ span {
 
 }
 
-.section {
+section {
     display: flex;
     display: inline-block;
+    min-height: 100vh;
 }
 
 .right>img {
@@ -89,7 +86,23 @@ span {
 
 footer {
     color: aliceblue;
-    margin-top: auto;
+    background-color: black;
     text-align: center;
-    margin-bottom: 2vh;
+    margin-top: 72vh;
+}
+.footer{
+    padding: 1vh;
+}
+
+.sub{
+    background-color: aliceblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    margin-top: 15vh;
 }
