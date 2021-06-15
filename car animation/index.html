@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        img {
+            width: 15rem;
+            height: auto;
+            animation-name: car;
+            animation-duration: 7s;
+            position: relative
+        }
+
+        @keyframes car {
+            0% {
+                left: 0rem;
+                top: 0rem;
+            }
+
+            100% {
+                left: 50rem;
+                top: 0rem;
+            }
+        }
+
+        hr {
+            height: 2px;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>A car moving animation</h1>
+
+    </header>
+
+    <img class="car" src="car.png" alt="car">
+    <hr>
+
+    <div></div>
+</body>
+
+</html>
