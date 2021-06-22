@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            margin: 0%;
+            background: rgb(13, 128, 118);
+            height: 100vh;
+            padding: 6vw 28vw;
+            padding-top: 0%;
+        }
+
+        .form {
+            border-radius: 10px;
+            text-align: center;
+            background: rgb(222, 245, 240);
+            width: 30em;
+        }
+
+        h1,
+        h2,
+        h4 {
+            text-transform: capitalize;
+        }
+
+        header h1 {
+            text-align: center;
+            border-bottom: 1px solid rgb(255, 255, 255);
+            width: 80%;
+            margin: 2rem;
+            margin-bottom: 0.8%;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        .btn {
+            color: rgb(255, 255, 255);
+            margin: 0.8rem;
+            padding: 0.25rem;
+            border-radius: 0.5rem;
+            background: rgb(31, 125, 187);
+        }
+
+        .gender {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>a simple form in HTML CSS</h1>
+        </header>
+        <fieldset class="form">
+            <h2>registeration form</h2>
+            <div class="mainForm">
+                <h4>name:<input type="text" name="" id=""></h4>
+                <h4>age: <input type="number"></h4>
+                <h4>gender:
+                    <div class="gender">
+                        <input type="radio" name="select">male<input type="radio" name="select">female
+                    </div>
+                </h4>
+            </div>
+            <h4>address: <input type="text"></h4>
+            <h4>email id: <input type="email"></h4>
+            <h4>phone number: <input type="phone number"></h4>
+            <input type="submit" class="btn">
+    </div>
+    </fieldset>
+    </div>
+
+</body>
+
+</html>
