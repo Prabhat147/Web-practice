@@ -5,32 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>car moving</title>
     <link rel="stylesheet" href="/style.css">
     <style>
+        body {
+            background: #fff;
+        }
+
         img {
+            margin: 0%;
+            padding: 0%;
+            position: ;
             width: 15rem;
-            height: auto;
             animation-name: car;
             animation-duration: 7s;
-            position: relative
+            position: relative;
+            left: 10px;
+            top: 50px;
         }
 
         @keyframes car {
             0% {
-                left: 0rem;
-                top: 0rem;
+                left: 10px;
+                top: 50px;
             }
 
             100% {
-                left: 50rem;
-                top: 0rem;
+                left: 900px;
+                top: 50px;
             }
         }
 
         hr {
             height: 2px;
+            width: 100vw;
             background-color: brown;
+            position: fixed;
+            left: -2px;
         }
     </style>
 </head>
@@ -41,7 +52,7 @@
 
     </header>
 
-    <img class="car" src="car.png" alt="car">
+    <img class="car" src="car.jpeg" alt="car">
     <hr>
 
     <div></div>
