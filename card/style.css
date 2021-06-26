@@ -1,60 +1,46 @@
 body{
-    margin: 0%;
-    padding: 0%;
-    color: rgb(0, 0, 0);
-    background: rgb(166, 132, 221);
     box-sizing: border-box;
+    color: #000;
+    background: rgb(93, 139, 182);
+}
+div.wrapper{
+    /* border: 2px solid silver; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+    height: 24rem;
+    border-radius: 1rem;
+    background: rgb(211, 212, 212);
+    box-shadow: 0px 2px 2px 0px #000;
+}
+div.wrapper:hover{
+    box-shadow: 0px 2px 2.5px 0px #000;
+    transform: scale(1.002)
+}
+div.wrapper:before{
+    color: slateblue;
+}
+div.card{
+    position: relative;
+}
+img{
+    height:10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+    position: relative;
+
 }
 h1{
     text-align: center;
 }
-div.wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-}
-div.card{
-    margin: 2rem;
-    padding: 1.5rem;
-    height: 320px;
-    width: 200px;
-    background: rgb(154, 122, 204);
-    border-radius: 4%;
-    box-shadow: 0px 2px 4px 0px rgb(194, 187, 187);
-}
-div.card:hover{
-    background: rgb(153, 118, 209);
-    box-shadow: 1px 2.5px 4.5px 0px rgb(197, 192, 192);
-    transform: scale(1.03);
-}
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    position: relative;
-    border-radius: 4%;
-}
-p{
-    position: relative;
-    font-weight: 200;
-}
 h2{
     text-transform: capitalize;
-    text-align: center;
-    height: 2.4rem;
+    margin: 0.5rem;
+    padding: 1rem;
 }
-@media only screen and (max-width:600px){
-    #card1{
-        display:block;
-        position: absolute;
-        color: seagreen;    
-    }
-    div.wrapper{
-        display: block;
-        margin: auto 12% ;
-    }
+p{
+    color: rgb(48, 46, 44);
+    padding: 3px;
 }
