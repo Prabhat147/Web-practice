@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-image: url(back-ground.jpeg);
+    /* background-image: url(back-ground.jpeg); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -9,6 +9,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+#home{
+    background-color: darkgray;
 }
 
 header {
@@ -104,8 +107,19 @@ html{
     scroll-behavior: smooth;
 }
 h2{
-    margin: 0%;
+    margin: 0%; 
     padding: 0%;
     text-align: center;
     margin-top: 15vh;
+}
+label{
+    display: flex;
+    margin: 0.3rem;
+}
+@media only screen and max-width:768px{
+   nav li{
+        text-align: center;
+        width: 100%;
+    }
+    
 }
