@@ -1,0 +1,42 @@
+.nav {
+    height: 150px;
+    width: 100%;
+    background-color: #c5c6c7;
+  }
+
+  .anc{
+    text-align: center;
+    color: white;
+  }
+  .anc:hover{
+    color: #f0f3f6;
+    text-decoration: none;
+
+  }
+
+  .custombtn{
+    background-color: #45a29e;
+    color: white;
+    height: 28px;
+    border: #45a29e;
+    border-radius: 7px;  
+  }
+  .custombtn:hover{
+    background-color: #326e6b;
+  
+    box-shadow: 0.2px 0.2px 0.7px black;
+    
+  }
+  .customremove{
+    background-color: #a24545;
+    color: white;
+    height: 28px;
+    border: #a24545;
+    border-radius: 7px;  
+  }
+  .customremove:hover{
+    background-color: #6e3232;
+  
+    box-shadow: 0.2px 0.2px 0.7px black;
+    
+  }
