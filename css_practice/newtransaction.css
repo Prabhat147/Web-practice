@@ -1,0 +1,110 @@
+.nav {
+    height: 150px;
+    width: 100%;
+    background-color: #c5c6c7;
+  }
+  
+  .smfull {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+  
+  
+  }
+  
+  ul {
+    list-style-type: none;
+    
+    
+  }
+  
+  li {
+    display: inline;
+  }
+  .act{
+    background-color:#1f2833 ;
+  }
+  /* navlink navbar  */
+   .ancor{
+    color: white;
+    text-align: center;
+    position: relative;
+    transition-duration: 0.5s;
+    border-top: 1px solid #1f2833;
+    border-bottom: 1px solid #1f2833;
+  }
+  
+  .ancor:hover {
+    color: rgb(225, 206, 206); 
+    text-decoration: none;
+    background-color: #18426b;
+  }
+  /* navbar css  */
+  
+  .ancornav{
+    color: white;
+    text-align: center;
+    position: relative;
+    transition-duration: 0.5s;
+  
+  }
+  
+  .ancornav:hover {
+    color: rgb(225, 206, 206); 
+    text-decoration: none;
+    background-color: #18426b;
+  }
+  
+  
+  .size{
+    width: 50vw;
+  }
+  
+  .backgroundnav{
+    background-color: #45a29e;
+   
+  }
+  
+  .custombtn{
+    background-color: #45a29e;
+    color: white;
+    height: 28px;
+    border: #45a29e;
+    border-radius: 7px;  
+  }
+  .custombtn:hover{
+    background-color: #326e6b;
+  
+    box-shadow: 0.2px 0.2px 0.7px black;
+    
+  }
+  .customremove{
+    background-color: #a24545;
+    color: white;
+    height: 28px;
+    border: #a24545;
+    border-radius: 7px;  
+  }
+  .customremove:hover{
+    background-color: #6e3232;
+  
+    box-shadow: 0.2px 0.2px 0.7px black;
+    
+  }
+
+  .modalcustom{
+    height: 50%;
+    width: 70%;
+  }
+
+
+  
+  
+  /* for navlink sizing fix */
+  @media only screen and (max-width: 1000px) {
+    .size{
+      width: 100vw;
+    }
+  }
+  
+  

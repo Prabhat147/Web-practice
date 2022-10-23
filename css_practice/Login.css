@@ -1,0 +1,51 @@
+.primary-color{
+    background-color: #0b0c10;
+}
+.secondary-color{
+    background-color: #1f2833;
+}
+.tertiary-color{
+    background-color:#c5c6c7;
+}
+.forth-color{
+    background-color: #66fcf1;
+
+}
+.fifth-color{
+    background-color: #45a29e;
+}
+
+.text-forth-color{
+    color: #45a29e
+}
+label{
+    color: white;
+}
+
+.custombtn{
+    background-color: #45a29e;
+    color: white;
+    height: 28px;
+    border: #45a29e;
+    border-radius: 7px;  
+}
+.custombtn:hover{
+    background-color: #326e6b;
+    border: #4c5e5d;
+    
+}
+
+.position{
+    position: relative; left:50%; transform: translate(-50%); 
+}
+.background{
+    /* background: url("https://images.pexels.com/photos/7621126/pexels-photo-7621126.jpeg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position:  -100px 0px ;
+   
+}
+
+
+
