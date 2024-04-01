@@ -19,15 +19,14 @@ header {
 }
 
 nav {
-    display: flex;
+    display: inline-block;
     position: fixed;
     background-color: black;
     width: 100%;
 }
 
 .portfolio {
-    margin-top: 20px;
-    margin-left: 15px;
+
 }
 
 .menu {
@@ -51,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: skyblue;
+    color: tomato;
 }
 
 .left {
@@ -73,13 +72,11 @@ section {
 }
 
 .right>img {
-    margin: 5%;
-    padding: 3%;
+    padding: 0.3%;
     position: relative;
     background: tomato;
-    border: 2px solid white;
-    border-radius: 50%;
-    height: 180px;
+    border-radius: 35%;
+    height: 25em;
     width: auto;
     margin-left: 20%;
 }
